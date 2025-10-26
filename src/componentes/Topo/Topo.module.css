@@ -1,0 +1,31 @@
+.headerContainer {
+    background-color: #F9DB79;
+    width: 100%;
+    padding: 9px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.boxContainerTopo {
+    width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.imgLogo {
+    width: 100px;
+    height: 100px;
+}
+.navContainer {
+    display:flex;
+    gap: 40px;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    font-size: 18px;
+}
+.linkTopo {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}

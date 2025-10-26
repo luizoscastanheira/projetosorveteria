@@ -1,0 +1,31 @@
+.headerContainer {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.imgLogo{
+    width: 100px;
+    height: 100px;
+}
+.containerRodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 20px;
+}
+
+.boxTexto {
+    width: 20%;
+    height: 100px;
+}
+
+.boxDireitos {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.linkRodape {
+        text-decoration: none;
+        font-weight: bold;
+        color: aqua;
+    }

@@ -1,0 +1,45 @@
+.sectionBanner {
+    width: 100%;
+    min-height: 100vh;
+    background: url('../../../public/banner-sobre.png') center / cover no-repeat;
+    /* background-size: cover; funciona no lugar da sintaxe acima que pede position / size extamente assim com uso de barra ou a nãodá certo e a imagem some */
+    color:aliceblue;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-shadow: 3px 5px 2px #474747;
+}
+
+.sectionTexto, .sectionImages {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.containerTexto {
+    max-width: 1024px;
+    padding: 100px 20px;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    & h2 {
+        font-size: 32px;
+    }
+    & span {
+        font-size: 20px;
+    }
+    & p {
+        font-size: 16px;
+    }
+}
+
+.img {
+    width: 50%;
+    height: auto;
+}
+

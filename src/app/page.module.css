@@ -42,3 +42,85 @@
         font-size: 16px;
     }
 }
+
+/* *************** Área de Responsividade ******************* */
+/* Smartphones menores */
+@media (max-width: 375px) {
+.sectionBanner {
+    font-size: 20px;
+    text-align: center;
+}
+.bannerImagemTexto {
+    flex-direction: column;
+}
+.imgBanners {
+    width: 100%;
+} 
+.boxTextoBanners {
+    width: 100%;
+    text-align: center;
+}
+#bannerCentral {
+    flex-direction: column-reverse;
+}
+
+}
+/* Dispositivos móveis (smartphones) em modo retrato */
+@media (min-width: 376px) and (max-width: 768px) {
+.sectionBanner {
+    font-size: 16px;
+    text-align: center;
+}
+.bannerImagemTexto {
+    flex-direction: column;
+}
+.imgBanners {
+    width: 100%;
+} 
+.boxTextoBanners {
+    width: 100%;
+    text-align: center;
+}
+#bannerCentral {
+    flex-direction: column-reverse;
+}
+}
+
+/* Dispositivos móveis (smartphones) em modo paisagem */
+@media (min-width: 769px) and (max-width: 1024px) {
+.sectionBanner {
+    font-size: 40px;
+    text-align: center;
+    }
+
+.bannerImagemTexto{
+    align-items: center;
+}
+.boxTextoBanners {
+    width: 50%;
+    height: auto;
+    text-align: center;
+    padding: 20px 20px;
+
+    gap: 20px;
+
+    & h2 {
+        font-size: 26px;
+    }
+
+    & span {
+        font-size: 16px;
+        font-style: italic;
+    }
+
+    & p {
+        font-size: 14px;
+    }
+}
+
+}
+
+/* Tablets e telas maiores */
+@media (min-width: 1025px) {
+    /* Futura atualização */
+}

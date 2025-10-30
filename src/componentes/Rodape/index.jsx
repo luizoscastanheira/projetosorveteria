@@ -8,14 +8,15 @@ export default function Rodape(){
     return(
         <header className={estilos.headerContainer}>
             <div className={estilos.containerRodape}>
-                <Image className={estilos.imgLogo} src={Logo} alt="Imagem do Logotipo"/>
+
+                    <Image className={estilos.imgLogo} src={Logo} alt="Imagem do Logotipo"/>
                 
                     <div className={estilos.boxTexto}>
                         <h3>ENDEREÇO</h3>
                         <p>Ave. Bernardino de Campos, 98, São Paulo - SP, 12345-678</p>
                     </div>
                     <div className={estilos.boxTexto}>
-                        <h3>CONATO</h3>
+                        <h3>CONTATO</h3>
                         <p>infor@meusite.com Tel.: (11)3456-7890</p>
                     </div>
                     <div className={estilos.boxTexto}>

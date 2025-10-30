@@ -61,3 +61,31 @@
         font-size: 16px;
     }
 }
+
+
+/* *************** Área de Responsividade ******************* */
+/* Smartphones menores */
+@media (max-width: 375px) {
+.sectionBanner h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+}
+/* Dispositivos móveis (smartphones) em modo retrato */
+@media (min-width: 376px) and (max-width: 768px) {
+.sectionBanner h1 {
+    font-size: 40px;
+    text-align: center;
+}
+}
+/* Dispositivos móveis (smartphones) em modo paisagem */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+
+}
+
+/* Tablets e telas maiores */
+@media (min-width: 1025px) {
+    /* Futura atualização */
+}

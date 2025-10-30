@@ -28,4 +28,39 @@
         text-decoration: none;
         font-weight: bold;
         color: aqua;
-    }
+}
+
+
+
+/* *************** Área de Responsividade ******************* */
+/* Smartphones menores */
+@media (max-width: 375px) {
+.containerRodape {
+    flex-direction: column;
+}
+.boxTexto {
+    width: 90%;
+    text-align: center;
+}
+
+}
+/* Dispositivos móveis (smartphones) em modo retrato */
+@media (max-width: 768px) {
+.containerRodape {
+    flex-direction: column;
+}
+.boxTexto {
+    width: 90%;
+    text-align: center;
+}
+}
+
+/* Dispositivos móveis (smartphones) em modo paisagem */
+@media (min-width: 601px) and (max-width: 768px) {
+    /* Futura atualização */
+}
+
+/* Tablets e telas maiores */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Futura atualização */
+}

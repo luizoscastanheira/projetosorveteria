@@ -23,7 +23,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={estilos.bannerImagemTexto}>
+      <section id={estilos.bannerCentral} className={estilos.bannerImagemTexto}>
         <div className={estilos.boxTextoBanners}>
           <h2>NOSSOS EVENTOS</h2>
           <span>Delícias de Sorvete</span>
